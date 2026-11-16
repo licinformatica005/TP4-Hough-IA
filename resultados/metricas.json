@@ -1,0 +1,158 @@
+{
+ "sintetica_rectas": [
+  {
+   "rho": -40.0,
+   "theta": -90.0,
+   "votos": 361
+  },
+  {
+   "rho": 100.0,
+   "theta": 0.0,
+   "votos": 281
+  },
+  {
+   "rho": 266.0,
+   "theta": 65.0,
+   "votos": 221
+  }
+ ],
+ "sintetica_circulos": [
+  [
+   258,
+   190,
+   35
+  ],
+  [
+   152,
+   191,
+   19
+  ]
+ ],
+ "motor_rectas": {
+  "n_bordes": 9939,
+  "tiempo_s": 0.01,
+  "picos": [
+   [
+    336.4,
+    72.0,
+    112
+   ],
+   [
+    151.4,
+    74.0,
+    103
+   ],
+   [
+    343.4,
+    45.0,
+    97
+   ],
+   [
+    -44.6,
+    -52.0,
+    95
+   ],
+   [
+    312.4,
+    77.0,
+    87
+   ],
+   [
+    226.4,
+    56.0,
+    83
+   ]
+  ],
+  "acc_shape": [
+   1117,
+   180
+  ]
+ },
+ "motor_circulos_robustez": [
+  {
+   "cfg": "\u03c3=1.6, Canny 50/130",
+   "guiado": {
+    "ok": true,
+    "top1": [
+     284,
+     168,
+     23
+    ],
+    "t": 0.2
+   },
+   "clasico": {
+    "ok": false,
+    "top1": [
+     94,
+     281,
+     26
+    ],
+    "t": 1.8
+   }
+  },
+  {
+   "cfg": "\u03c3=1.2, Canny 40/110",
+   "guiado": {
+    "ok": true,
+    "top1": [
+     285,
+     168,
+     23
+    ],
+    "t": 0.4
+   },
+   "clasico": {
+    "ok": false,
+    "top1": [
+     92,
+     259,
+     21
+    ],
+    "t": 2.3
+   }
+  },
+  {
+   "cfg": "\u03c3=2.0, Canny 40/100",
+   "guiado": {
+    "ok": true,
+    "top1": [
+     284,
+     168,
+     23
+    ],
+    "t": 0.1
+   },
+   "clasico": {
+    "ok": false,
+    "top1": [
+     94,
+     281,
+     26
+    ],
+    "t": 1.4
+   }
+  }
+ ],
+ "motor_circulos": {
+  "detectado": [
+   284,
+   168,
+   23
+  ],
+  "referencia": [
+   286,
+   170,
+   25
+  ],
+  "error_centro_px": 2.8
+ },
+ "opencv": {
+  "HoughLines_umbral90": 3,
+  "HoughCircles_top1": [
+   294,
+   176,
+   27
+  ],
+  "error_centro_px": 10.0
+ }
+}
